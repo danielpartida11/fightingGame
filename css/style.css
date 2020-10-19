@@ -176,6 +176,11 @@ h1{
     display: flex;
     background-color: black;
     margin-top: 8em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #healthP2{
@@ -183,7 +188,36 @@ h1{
     height: 4em;
     border: solid blue;
     background-color: black;
+    display: flex;
     margin-top: 8em;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#fighters{
+    width: 48em;
+    height: 28em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+#p1{
+    width: 20em;
+    height: 28em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#p2{
+    width: 20em;
+    height: 28em;
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 /*INICIO DE ZONA DE BOTONES*/
