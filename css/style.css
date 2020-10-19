@@ -61,20 +61,130 @@ body{
     flex-direction: column;
     align-items: center;
     background-image: url('../img/gifs/characterSelector.gif');
+    display: none;
 }
 
 #columnasPersonajes{
     width: 48em;
     height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personajes{
+    width: 48em;
+    height: 15em;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.card{
+    width: 8em;
+    height: 13em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #114114;
     border: solid;
+}
+
+.card img{
+    width: 75%;
+    height: 60%;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+h1{
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #8A9E8C;
 }
 
 #personajesSeleccionados{
     width: 48em;
     height: 16em;
-    border: solid yellow;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+#contenedor1{
+    width: 10em;
+    height: 16em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+#contenedor2{
+    width: 10em;
+    height: 16em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+
+}
+
+#contenedor2 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#contenedor3{
+    width: 10em;
+    height: 16em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+
 /*FIN DE SEGUNDA PANTALLA*/
+
+/*PRINCIPIO PANTALLA DE LUCHA*/
+
+/*FINAL DE PANTALLA DE LUCHA*/
+
+#fightScreen{
+    width: 48em;
+    height: 48em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../img/gifs/fightScreen.gif');
+    background-size: 200%;
+}
+
+#health{
+    width: 48em;
+    height: 18em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#healthP1{
+    width: 20em;
+    height: 4em;
+    border: solid blue;
+    display: flex;
+    background-color: black;
+    margin-top: 8em;
+}
+
+#healthP2{
+    width: 20em;
+    height: 4em;
+    border: solid blue;
+    background-color: black;
+    margin-top: 8em;
+}
 
 /*INICIO DE ZONA DE BOTONES*/
 #zonaBotones{
@@ -115,5 +225,4 @@ body{
     border: solid white;
     border-radius: 100% 100% 100% 100%;
 }
-
 /*FIN DE LA ZONA EXTERIOR DEL JUEGO*/
