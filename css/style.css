@@ -34,7 +34,7 @@ body{
     background-color: black;
     border-radius: 2.5% 2.5% 2.5% 2.5%;
 }
-
+/*PRIMERA PANTALLA*/
 #mainMenu{
     width: 48em;
     height: 48em;
@@ -42,6 +42,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    display: none;
 }
 
 #mainMenu img{
@@ -49,7 +50,21 @@ body{
     width: 100%;
     height: 100%;
 }
+/*FIN DE PRIMERA PANTALLA*/
 
+/*SEGUNDA PANTALLA*/
+#characterSelector{
+    width: 48em;
+    height: 48em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+}
+/*FIN DE SEGUNDA PANTALLA*/
+
+/*INICIO DE ZONA DE BOTONES*/
 #zonaBotones{
     width: 50em;
     height: 6em;
@@ -90,4 +105,3 @@ body{
 }
 
 /*FIN DE LA ZONA EXTERIOR DEL JUEGO*/
-
