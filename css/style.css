@@ -43,7 +43,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    display: none;
 }
 
 #mainMenu img{
@@ -114,11 +113,17 @@ h1{
 }
 
 #contenedor1{
-    width: 10em;
+    width: 15em;
     height: 16em;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+}
+
+#contenedor1 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 #contenedor2{
@@ -127,7 +132,6 @@ h1{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-
 }
 
 #contenedor2 img{
@@ -137,11 +141,17 @@ h1{
 }
 
 #contenedor3{
-    width: 10em;
+    width: 15em;
     height: 16em;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+}
+
+#contenedor3 img{
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 
@@ -232,7 +242,8 @@ h1{
     align-items: center;
     background-image: url('../img/gifs/finalScreen.gif');
     background-size: 250%;
-}
+    display: none;
+}   
 /*FINAL DE PANTALLA FINAL*/
 /*INICIO DE ZONA DE BOTONES*/
 #zonaBotones{
