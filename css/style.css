@@ -43,12 +43,26 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url('../img/gifs/pantallaInicio.gif');
+    background-size: 165%;
 }
 
-#mainMenu img{
+#tituloJuego{
+    width: 48em;
+    height: 24em;
     display: flex;
-    width: 100%;
-    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonPressStart{
+    width: 48em;
+    height: 24em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 /*FIN DE PRIMERA PANTALLA*/
 
