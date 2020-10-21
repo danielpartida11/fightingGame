@@ -1,2 +1,1 @@
-# fightingGame
-This is going to be a fighting game made with HTML5, CSS3 and JavaScript that will consist of having more luck than the adversary. It has a main menu, a character selector and a fight arena where the fate of said fighters will be decided.
+Welcome to my fighting game called "Lucky Fight". You will be able to choose between 4 different characters with different statistics, taking into account the lucky advantage and disadvantage of each one. It has an improved graphical interface with .gif backgrounds to give the game more dynamism with two interactive buttons to switch between screens and the other to attack between opponents. I hope you enjoy it and have good luck!
