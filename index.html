@@ -22,23 +22,23 @@
             <div id="characterSelector">
                 <div id="columnasPersonajes">
                     <div class="personajes">
-                        <div class="card">
+                        <div class="card" id="luchador1" onclick="seleccionPersonaje('Personaje1')">
                             <h1>MARCO</h1>
-                            <img src="img/luchadores/personajes/marco.gif" alt="">
+                            <img src="img/luchadores/marco.gif" alt="">
                         </div>
-                        <div class="card">
+                        <div class="card" id="luchador2" onclick="seleccionPersonaje('Personaje2')">
                             <h1>MARIO</h1>
-                            <img src="img/luchadores/personajes/mario.gif" alt="">
+                            <img src="img/luchadores/mario.gif" alt="">
                         </div>
                     </div>
                     <div class="personajes">
-                        <div class="card">
+                        <div class="card" id="luchador3" onclick="seleccionPersonaje('Personaje3')">
                             <h1>SONIC</h1>
-                            <img src="img/luchadores/personajes/sonic.gif" alt="">
+                            <img src="img/luchadores/sonic.gif" alt="">
                         </div>
-                        <div class="card">
+                        <div class="card" id="luchador4" onclick="seleccionPersonaje('Personaje4')">
                             <h1>STEVE</h1>
-                            <img src="img/luchadores/personajes/steve.gif" alt="">
+                            <img src="img/luchadores/steve.gif" alt="">
                         </div>
                     </div>
                 </div>
@@ -66,10 +66,10 @@
                     </div>
                 </div>
                 <div id="fighters">
-                    <div id="p1">
+                    <div id="player1">
 
                     </div>
-                    <div id="p2">
+                    <div id="player2">
 
                     </div>
                 </div>
@@ -83,18 +83,16 @@
     </div>
     <div id="zonaBotones">
         <div class="botones">
-            <div id="botonStart" onclick="botonStart(id)">
+            <div id="botonStart" onclick="botonStart()">
                 <h1>START</h1>
             </div>
         </div>
         <div class="botones">
-            <div id="botonPunch">
+            <div id="botonPunch" onclick="botonPunch()">
                 
             </div>
         </div>
     </div>
     <script src="js/main.js"></script>
-    <script src="js/characters.js"></script>
-    <script src="js/functions.js"></script>
 </body>
 </html>
