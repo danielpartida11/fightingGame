@@ -6,29 +6,29 @@
 
 ## ¿Cómo se estructura mi Lucky Fight?
 
-[Selección De Personaje](#seleccion-de-personaje)
-[Pantalla De Pelea](#pantalla-de-pelea)
+1. [Character Selector](#character-selector)
+2. [Fight Screen](#fight-screen)
 
-### Selección De Personaje
-    ***
+### Character Selector
+
     En esta pantalla podrás elegir entre 4 personajes para pelear con diferentes estadísticas con un solo click.
 
-### Pantalla De Pelea
-    ***
+### Fight Screen
+
     En esta pantalla podrás visualizar como se pelean los personajes escogidos pulsando el botón rojo.
 
 ## ¿Qué tecnologías se han utilizado para realizar el proyecto?
-    ***
+
     - HTML5
     - CSS3
     - JavaScritp ES6
 
 ## ¿Cómo puedo visualizar el contenido del proyecto?
-    ***
+
     Al ingresar en el siguiente hipervínculo, podrás verlo:
 
     👉 https://danielpartida11.github.io/fightingGame 👈
 
 ## Autor
-    ***
+
     Daniel Partida
