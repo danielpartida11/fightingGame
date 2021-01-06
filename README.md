@@ -1,7 +1,7 @@
 # LUCKY FIGHT! 👊💥
 
 ## ¿Qué es? 🧐
-    ***
+
     Este proyecto muestra un juego de lucha con un factor suerte a tener en cuenta. El que tenga mas suerte gana! 😝
 
 ## ¿Cómo se estructura mi Lucky Fight?
