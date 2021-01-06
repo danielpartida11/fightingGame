@@ -21,7 +21,7 @@
 
     - HTML5
     - CSS3
-    - JavaScritp ES6
+    - JavaScript ES6
 
 ## ¿Cómo puedo visualizar el contenido del proyecto?
 
