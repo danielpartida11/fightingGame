@@ -1,1 +1,34 @@
-Welcome to my fighting game called "Lucky Fight". You will be able to choose between 4 different characters with different statistics, taking into account the lucky advantage and disadvantage of each one. It has an improved graphical interface with .gif backgrounds to give the game more dynamism with two interactive buttons to switch between screens and the other to attack between opponents. I hope you enjoy it and have good luck! You can start playing by clicking on this link: https://danielpartida11.github.io/fightingGame/
+# LUCKY FIGHT! 👊💥
+
+## ¿Qué es? 🧐
+
+    Este proyecto muestra un juego de lucha con un factor suerte a tener en cuenta. El que tenga mas suerte gana! 😝
+
+## ¿Cómo se estructura mi Lucky Fight?
+
+    [Selección De Personaje](#seleccion-de-personaje)
+    [Pantalla De Pelea](#pantalla-de-pelea)
+
+### Selección De Personaje
+
+    En esta pantalla podrás elegir entre 4 personajes para pelear con diferentes estadísticas con un solo click.
+
+### Pantalla De Pelea
+
+    En esta pantalla podrás visualizar como se pelean los personajes escogidos pulsando el botón rojo.
+
+## ¿Qué tecnologías se han utilizado para realizar el proyecto?
+
+    - HTML5
+    - CSS3
+    - JavaScritp ES6
+
+## ¿Cómo puedo visualizar el contenido del proyecto?
+
+    Al ingresar en el siguiente hipervínculo, podrás verlo:
+
+    👉 https://danielpartida11.github.io/fightingGame 👈
+
+## Autor
+
+    Daniel Partida
